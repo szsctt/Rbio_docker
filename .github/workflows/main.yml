@@ -6,7 +6,7 @@ on:
     branches:
       - 'main'
     tag: 
-	  - 'v*'
+      - 'v*'
       
 jobs:
   build:
