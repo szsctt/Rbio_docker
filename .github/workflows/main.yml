@@ -12,7 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -
+      - name: version
+	    run: echo "::set-output name=VERSION::$(cat version.txt)"
+	  -
         name: Checkout 
         uses: actions/checkout@v2
       -
