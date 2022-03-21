@@ -6,4 +6,4 @@ Tools are listed in `install.R`.
 
 Github actions builds the container and pushes to docker hub.
 
-Run with singularity using `run_rtudio.sh`
+Run with singularity using `run_rstudio.sh`
