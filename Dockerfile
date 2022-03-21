@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_14
+FROM rocker/verse:4.1.2
 
 #  $ docker build . -t szsctt/rbio:latest -t szsctt/rbio:3.14
 #  $ docker run --rm -it szsctt/rbio:latest /bin/bash
