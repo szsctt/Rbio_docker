@@ -1,0 +1,36 @@
+0.0.0
+
+Created dockerfile, install script and github actions
+
+Dockerfile is based on rocker/verse:4.1.2.  
+
+Install script installs:
+
+ - cowplot
+ - writexl
+ - wesanderon
+ - ggrepel
+ - DT
+ - tidyverse
+ - BiocManager
+ - circlize
+ - furrr
+ - kableExtra
+ - magick
+ - multidplyr
+ - patchwork
+ - modelr
+ - pheatmap
+ - plotly
+ - tidyquant
+ - ggwordcloud
+ - wordcloud
+ - wordcloud2
+ - markdown
+ - rmarkdown
+
+From bioconductor version 3.14 it installs:
+ - geneRxCluster
+ - karyoploteR
+ - biomaRt
+ - GenomicRanges
