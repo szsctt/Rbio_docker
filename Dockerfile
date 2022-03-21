@@ -12,3 +12,4 @@ RUN apt-get update &&\
 	build-essential &&\
 	rm -rf /var/lib/apt/lists/*
 
+RUN Rscript install.R
