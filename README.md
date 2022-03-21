@@ -1,2 +1,7 @@
 # Rbio_docker
-Docker container with bioinformatics tools
+
+A docker container with some of the R tools I commonly use.
+
+Tools are listed in `install.R`.
+
+Github actions builds the container and pushes to docker hub.
