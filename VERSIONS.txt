@@ -1,4 +1,4 @@
-0.0.0
+0.0
 
 Created dockerfile, install script and github actions
 
