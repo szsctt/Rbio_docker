@@ -9,7 +9,9 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update &&\
 	apt-get install -y tmux git nano wget \
-	build-essential &&\
+	build-essential imagemagick  &&\
 	rm -rf /var/lib/apt/lists/*
 
-RUN Rscript install.R
+COPY install.R /tmp/install.R
+
+RUN Rscript /tmp/install.R
