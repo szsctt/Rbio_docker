@@ -12,11 +12,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: version
-	    run: echo "::set-output name=VERSION::$(cat version.txt)"
+      - 
+	  	name: version
+	  	run: echo "::set-output name=VERSION::$(cat version.txt)"
 		id: version
-	  - name: check-version
-	    run: echo "Building container version ${{ steps.version.outputs.VERSION  }}"
+	  - 
+	  	name: check-version
+	   	run: echo "Building container version ${{ steps.version.outputs.VERSION  }}"
 	  -
         name: Checkout 
         uses: actions/checkout@v2
