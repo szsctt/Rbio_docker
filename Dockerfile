@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_13
+FROM bioconductor/bioconductor_docker:RELEASE_3_14
 
 #  $ docker build . -t szsctt/r_ints:latest -t szsctt/r_ints:3
 #  $ docker run --rm -it szsctt/r_ints:latest /bin/bash
