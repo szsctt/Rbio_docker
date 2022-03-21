@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/rbio:latest,{{ secrets.DOCKER_HUB_USERNAME }}/rbio:${{ steps.version.outputs.VERSION  }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/rbio:latest,${{ secrets.DOCKER_HUB_USERNAME }}/rbio:${{ steps.version.outputs.VERSION  }}
