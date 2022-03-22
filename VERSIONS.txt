@@ -1,4 +1,8 @@
-0.0
+v0.1 
+
+Added ggplotify
+
+v0.0
 
 Created dockerfile, install script and github actions
 
