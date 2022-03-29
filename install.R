@@ -4,4 +4,4 @@ install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyve
 					"wordcloud", "wordcloud2", "markdown", "rmarkdown", "ggplotify"))
 
 BiocManager::install(version="3.14")
-BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges"))
+BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges", "edgeR", "DESeq2"))
