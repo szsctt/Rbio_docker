@@ -1,3 +1,7 @@
+v0.2
+
+Added DEseq2 and EdgeR
+
 v0.1 
 
 Added ggplotify
