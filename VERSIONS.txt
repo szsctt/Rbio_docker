@@ -1,3 +1,8 @@
+v0.3 
+
+Added jsonlite and httpr for using APIs
+
+
 v0.2
 
 Added DEseq2 and EdgeR
