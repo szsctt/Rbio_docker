@@ -1,3 +1,7 @@
+v0.4
+
+Added [reutils](https://cran.r-project.org/web/packages/reutils/reutils.pdf)
+
 v0.3 
 
 Added jsonlite and httpr for using APIs
