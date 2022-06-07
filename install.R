@@ -6,7 +6,7 @@ install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyve
 BiocManager::install(version="3.14")
 BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges", "edgeR", "DESeq2"))
 
-devtools::intstall_github("serratus-bio/tantalus")
+devtools::intstall_github('serratus-bio/tantalus')
 
 
 
