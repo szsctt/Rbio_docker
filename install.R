@@ -8,3 +8,5 @@ BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges
 
 devtools::intstall_github("serratus-bio/tantalus")
 
+
+
