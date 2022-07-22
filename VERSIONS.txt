@@ -1,3 +1,7 @@
+v0.5.1
+
+Added "org.Hs.eg.db"
+
 v 0.5
 
 Added "TxDb.Hsapiens.UCSC.hg38.knownGene"
