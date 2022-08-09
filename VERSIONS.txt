@@ -1,3 +1,7 @@
+v0.8
+
+Added ["rmspc"](https://bioconductor.org/packages/release/bioc/vignettes/rmspc/inst/doc/rmpsc.html)
+
 
 v0.7
 
