@@ -19,13 +19,10 @@ RUN wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-p
 	rm /tmp/packages-microsoft-prod.deb
 	
 # Install the runtime
-RUN apt-get update; \
+RUN apt-get update &&\
   apt-get install -y apt-transport-https && \
   apt-get update && \
   apt-get install -y aspnetcore-runtime-5.0
-
-
-
 
 COPY install.R /tmp/install.R
 
