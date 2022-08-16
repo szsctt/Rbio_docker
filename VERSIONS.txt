@@ -1,3 +1,7 @@
+v0.9
+
+Added "ggforce"
+
 v0.8
 
 Added ["rmspc"](https://bioconductor.org/packages/release/bioc/vignettes/rmspc/inst/doc/rmpsc.html) including [.NET runtime](https://github.com/Bioconductor/BBS/pull/87/commits/609bac3062d95bfee298a2523300cfdf6d5a7685)
