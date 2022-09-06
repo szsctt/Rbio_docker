@@ -1,3 +1,7 @@
+v0.10
+
+Added rstatix
+
 v0.9
 
 Added "ggforce"
