@@ -1,3 +1,8 @@
+v0.11
+
+Added argparse
+
+
 v0.10
 
 Added rstatix
