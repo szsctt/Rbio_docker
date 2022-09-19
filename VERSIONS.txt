@@ -1,3 +1,7 @@
+v0.12
+
+Added seqinr
+
 v0.11
 
 Added argparse
