@@ -18,6 +18,14 @@ RUN wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-p
 	sudo dpkg -i /tmp/packages-microsoft-prod.deb &&\
 	rm /tmp/packages-microsoft-prod.deb
 	
+# get bedtools
+RUN wget https://github.com/arq5x/bedtools2/releases/download/v2.30.0/bedtools.static.binary &&\
+	mkdir /opt/bedtools &&\
+    mv bedtools.static.binary /opt/bedtools/bedtools
+
+ENV PATH="${PATH}:/opt/bedtools/"
+
+	
 # Install the runtime
 RUN apt-get update &&\
   apt-get install -y apt-transport-https && \
