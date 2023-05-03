@@ -1,3 +1,9 @@
+v 1.4
+
+Updated to rocker:4.3.0
+
+Added peptides
+
 v 1.3
 
 Added bedtools v2.30.0 binary and gtools
