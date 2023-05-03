@@ -1,4 +1,4 @@
-FROM rocker/verse:4.3.0
+FROM rocker/verse:4.2.2
 
 #  $ docker build . -t szsctt/rbio:latest -t szsctt/rbio:3.14
 #  $ docker run --rm -it szsctt/rbio:latest /bin/bash
@@ -14,7 +14,7 @@ RUN apt-get update &&\
 	rm -rf /var/lib/apt/lists/*
 	
 # Install microsoft signing key
-RUN wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O /tmp/packages-microsoft-prod.deb &&\
+RUN wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O /tmp/packages-microsoft-prod.deb &&\
 	sudo dpkg -i /tmp/packages-microsoft-prod.deb &&\
 	rm /tmp/packages-microsoft-prod.deb
 	
@@ -30,7 +30,7 @@ ENV PATH="${PATH}:/opt/bedtools/"
 RUN apt-get update &&\
   apt-get install -y apt-transport-https && \
   apt-get update && \
-  apt-get install -y aspnetcore-runtime-5.0
+  apt-get install -y aspnetcore-runtime-6.0
 
 COPY install.R /tmp/install.R
 
