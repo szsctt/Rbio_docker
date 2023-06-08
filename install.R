@@ -1,7 +1,7 @@
 install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyverse", 
 					"BiocManager", "circlize", "furrr", "kableExtra", "magick", "multidplyr",
 					"patchwork", "modelr", "pheatmap", "plotly", "tidyquant", "ggwordcloud", 
-					"wordcloud", "wordcloud2", "markdown", "rmarkdown", "ggplotify", "httr", 
+					"markdown", "rmarkdown", "ggplotify", "httr", "ggbeeswarm",
 					"jsonlite", "reutils", "here", "ggforce", "rstatix", "argparse", "seqinr",
 					"umap", "tm", "SnowballC", "ggtext", "gtools", "Peptides"))
 

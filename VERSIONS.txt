@@ -1,3 +1,7 @@
+v1.5
+
+Removed wordcloud and wordcloud2, added ggbeeswarm.
+
 v 1.4
 
 Updated to rocker:4.3.0
