@@ -21,7 +21,7 @@ RUN wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-p
 # get bedtools
 RUN wget https://github.com/arq5x/bedtools2/releases/download/v2.30.0/bedtools.static.binary &&\
 	mkdir /opt/bedtools &&\
-    mv bedtools.static.binary /usr/bin/bedtools
+    mv bedtools.static.binary /usr/bin/bedtools && chmod +x /usr/bin/bedtools
 
 	
 # Install the runtime
