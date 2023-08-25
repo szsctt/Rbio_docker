@@ -1,3 +1,7 @@
+BiocManager::install(version="3.15", ask=FALSE)
+BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges", "edgeR", "GO.db", "biomaRt", "annotate",
+						"DESeq2", "TxDb.Hsapiens.UCSC.hg38.knownGene", "org.Hs.eg.db", "rmspc"))
+
 install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyverse", 
 					"BiocManager", "circlize", "furrr", "kableExtra", "magick", "multidplyr",
 					"patchwork", "modelr", "pheatmap", "plotly", "tidyquant", "ggwordcloud", 
@@ -6,6 +10,4 @@ install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyve
 					"umap", "tm", "SnowballC", "ggtext", "gtools", "Peptides", "ggbeeswarm",
 		  			"GOxploreR"))
 
-BiocManager::install(version="3.15", ask=FALSE)
-BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges", "edgeR", "GO.db",
-						"DESeq2", "TxDb.Hsapiens.UCSC.hg38.knownGene", "org.Hs.eg.db", "rmspc"))
+
