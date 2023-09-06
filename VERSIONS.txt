@@ -1,3 +1,8 @@
+v1.6
+
+Move bedtools binary to /usr/bin, add bedtools to path
+Added topGO, GO.db and Rgraphviz
+
 v1.5
 
 Removed wordcloud and wordcloud2, added ggbeeswarm.
