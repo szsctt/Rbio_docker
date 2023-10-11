@@ -1,6 +1,6 @@
 v1.7
 
-Added ggtree and dbscan
+Added rhdf5, ggtree and dbscan
 
 
 v1.6
