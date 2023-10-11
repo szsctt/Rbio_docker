@@ -1,3 +1,8 @@
+v1.7
+
+Added ggtree and dbscan
+
+
 v1.6
 
 Move bedtools binary to /usr/bin, add bedtools to path
