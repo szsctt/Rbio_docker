@@ -4,7 +4,8 @@ install.packages(c("cowplot", "writexl", "wesanderson", "ggrepel", "DT", "tidyve
 					"patchwork", "modelr", "pheatmap", "plotly", "tidyquant", "ggwordcloud", 
 					"markdown", "rmarkdown", "ggplotify", "httr", "ggbeeswarm",
 					"jsonlite", "reutils", "here", "ggforce", "rstatix", "argparse", "seqinr",
-					"umap", "tm", "SnowballC", "ggtext", "gtools", "Peptides", "dbscan"))
+					"umap", "tm", "SnowballC", "ggtext", "gtools", "Peptides", "dbscan", 
+                    "figpatch"))
 
 BiocManager::install(version="3.15", ask=FALSE)
 BiocManager::install(c("geneRxCluster", "karyoploteR", "biomaRt", "GenomicRanges", "edgeR", 
