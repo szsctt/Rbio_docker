@@ -1,3 +1,8 @@
+v2.0
+
+Updated to R version 4.3.3, bioconductor version 3.18; added RMariaDB and AnnotationHub
+
+
 v1.8 
 
 Added figpatch

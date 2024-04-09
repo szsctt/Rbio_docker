@@ -1,4 +1,4 @@
-FROM rocker/verse:4.2.2
+FROM rocker/verse:4.3.3
 
 #  $ docker build . -t szsctt/rbio:latest -t szsctt/rbio:3.14
 #  $ docker run --rm -it szsctt/rbio:latest /bin/bash
