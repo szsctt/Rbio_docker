@@ -1,3 +1,7 @@
+v2.0.1
+
+Added ggmsa
+
 v2.0
 
 Updated to R version 4.3.3, bioconductor version 3.18; added RMariaDB and AnnotationHub
