@@ -10,7 +10,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update &&\
 	apt-get install -y tmux git nano wget \
-	build-essential imagemagick  &&\
+	build-essential imagemagick libproj-dev  &&\
 	rm -rf /var/lib/apt/lists/*
 	
 # Install microsoft signing key
